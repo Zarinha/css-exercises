@@ -1,0 +1,12 @@
+/* styles.css */
+
+div {
+    background-color: red;
+    text-emphasis:unset;
+    font-style:italic;
+    color:white;
+    font: size 32px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
