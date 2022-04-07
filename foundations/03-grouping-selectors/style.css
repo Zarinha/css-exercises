@@ -1,0 +1,9 @@
+.bear .cat {
+    font-size: 28px;
+    font-family:Helvetica,'Times New Roman', sans-serif ;
+}
+.bear{ background-color: #0f0f0f;
+    color: rgb(252, 253, 255);
+}
+.cat { background-color: #ffff00;
+}
