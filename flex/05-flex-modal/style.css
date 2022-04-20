@@ -12,10 +12,14 @@ body {
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
+
 }
 
 .modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -23,6 +27,8 @@ body {
 }
 
 .icon {
+  display: flex;
+  flex-shrink: 0;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -33,6 +39,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .close-button {
@@ -63,4 +70,17 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.header {
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+
+}
+.text {
+margin-bottom: 16px;
 }
